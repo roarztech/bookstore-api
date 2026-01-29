@@ -1,0 +1,62 @@
+{
+    "1": {
+      "isbn": "978-0-12345-678-9",
+      "author": "John Smith",
+      "title": "The Art of Programming",
+      "reviews": {}
+    },
+    "2": {
+      "isbn": "978-0-23456-789-0",
+      "author": "Jane Doe",
+      "title": "Web Development Fundamentals",
+      "reviews": {}
+    },
+    "3": {
+      "isbn": "978-0-34567-890-1",
+      "author": "John Smith",
+      "title": "Advanced JavaScript Techniques",
+      "reviews": {}
+    },
+    "4": {
+      "isbn": "978-0-45678-901-2",
+      "author": "Emily Johnson",
+      "title": "Database Design Patterns",
+      "reviews": {}
+    },
+    "5": {
+      "isbn": "978-0-56789-012-3",
+      "author": "Michael Brown",
+      "title": "Cloud Computing Essentials",
+      "reviews": {}
+    },
+    "6": {
+      "isbn": "978-0-67890-123-4",
+      "author": "Jane Doe",
+      "title": "API Development Best Practices",
+      "reviews": {}
+    },
+    "7": {
+      "isbn": "978-0-78901-234-5",
+      "author": "Sarah Wilson",
+      "title": "Machine Learning Basics",
+      "reviews": {}
+    },
+    "8": {
+      "isbn": "978-0-89012-345-6",
+      "author": "David Lee",
+      "title": "Cybersecurity Handbook",
+      "reviews": {}
+    },
+    "9": {
+      "isbn": "978-0-90123-456-7",
+      "author": "Emily Johnson",
+      "title": "Mobile App Development",
+      "reviews": {}
+    },
+    "10": {
+      "isbn": "978-0-01234-567-8",
+      "author": "Robert Taylor",
+      "title": "DevOps Practices",
+      "reviews": {}
+    }
+  }
