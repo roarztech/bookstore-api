@@ -4,10 +4,8 @@ let books = require('../books.json');
 
 const general = express.Router();
 
-// Task 2: Get all books using async/await with Axios
 general.get('/getallbooks', async (req, res) => {
   try {
-    // Simulating async operation with promise
     const getAllBooks = () => {
       return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -23,7 +21,6 @@ general.get('/getallbooks', async (req, res) => {
   }
 });
 
-// Task 3: Get books by ISBN using promise callbacks
 general.get('/getbooksbyISBN/:isbn', (req, res) => {
   const isbn = req.params.isbn;
 
@@ -49,7 +46,6 @@ general.get('/getbooksbyISBN/:isbn', (req, res) => {
     });
 });
 
-// Task 4: Get books by author using async/await
 general.get('/getbooksbyauthor/:author', async (req, res) => {
   try {
     const author = req.params.author;
@@ -76,7 +72,6 @@ general.get('/getbooksbyauthor/:author', async (req, res) => {
   }
 });
 
-// Task 5: Get books by title using promise callbacks
 general.get('/getbooksbytitle/:title', (req, res) => {
   const title = req.params.title;
 
@@ -104,7 +99,6 @@ general.get('/getbooksbytitle/:title', (req, res) => {
     });
 });
 
-// Task 6: Get book review using async/await
 general.get('/getbookreview/:isbn', async (req, res) => {
   try {
     const isbn = req.params.isbn;
